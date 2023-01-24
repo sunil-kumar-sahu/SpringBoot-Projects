@@ -1,0 +1,19 @@
+
+spring: 
+   profiles: uat
+   datasource:  
+         driver-class-name: oracle.jdbc.driver.OracleDriver
+         password: 12345
+         url: jdbc:oracle:thin:@localhost:1521:xe
+         username: system
+---        
+spring: 
+   profiles: prod
+   datasource:  
+         driver-class-name: oracle.jdbc.driver.OracleDriver
+         password: 12345
+         url: jdbc:oracle:thin:@localhost:1521:xe
+         username: system
+    
+       
+   
